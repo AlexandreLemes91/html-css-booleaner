@@ -48,3 +48,17 @@ h1{
 .evidence{
   background-color: rgb(255, 255, 0); 
 }
+
+.squaredata{
+  width: 33%;
+}
+
+thead{
+  background-color: rgb(51, 133, 255);
+  color: white;
+  text-align: left;
+}
+
+.safereading{
+  background-color: rgb(179, 209, 255);
+}
