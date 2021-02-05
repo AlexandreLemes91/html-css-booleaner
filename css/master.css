@@ -19,3 +19,24 @@ header{
   height: 60px;
 }
 
+main{
+  width: 80%;
+  margin: 20px auto;
+  font-family: 'Playfair Display', serif;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.articledata{
+  color: rgb(92, 138, 138);
+}
+
+.author{
+  color: rgb(51, 133, 255);
+}
+
+.time{
+  font-size: 12px;
+}
