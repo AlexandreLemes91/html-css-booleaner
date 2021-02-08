@@ -6,6 +6,7 @@
 body{
     background-image: url(../../img/background.jpg);
     background-size: cover;
+    background-attachment: fixed
 }
 
 /* logo */
@@ -13,7 +14,6 @@ header{
     height: 120px;
     background-color: rgba(42, 152, 185, 0.6);
     padding: 20px 0px;
-    background-attachment: fixed;
 }
 
 header img{
@@ -21,7 +21,7 @@ header img{
 }
 
 header > div{
-    width: 70%;
+    width: 1000px;
     margin: auto;
 }
 
@@ -31,12 +31,15 @@ header input{
 
 /* main */
 main{
-    width: 70%;
+    width: 1000px;
     margin: auto;
-    padding: 30px 0;
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     font-size: 14px;
+}
+
+section{
+    margin-top: 30px;
 }
 
 /* section title */
@@ -64,4 +67,47 @@ a:hover{
     height: 362px;
     float: left;
     margin-right: 20px;
+}
+
+/* table */
+table{
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rgb(51, 133, 255);
+    color: white;
+    text-align: left;
+}
+
+.safereading{
+    background-color: rgb(179, 209, 255);
+  }
+
+.squaredata{
+    width: 25%;
+  }
+
+.squaredatatext{
+    width: 50%;
+  }
+
+/* 2nd img */
+.img2::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.img2 div{
+    background-image: url(../../img/tim-2.jpg);
+    width: 463px;
+    height: 361px;
+    float: right;
+    margin-left: 20px;
+}
+
+
+ul{
+    list-style-position: inside;
+    padding-left: 0px;
 }
