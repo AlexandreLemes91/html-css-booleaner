@@ -82,15 +82,15 @@ thead{
 
 .safereading{
     background-color: rgb(179, 209, 255);
-  }
+}
 
 .squaredata{
     width: 25%;
-  }
+}
 
 .squaredatatext{
     width: 50%;
-  }
+}
 
 /* 2nd img */
 .img2::after{
@@ -98,6 +98,7 @@ thead{
     clear: both;
     content: "";
 }
+
 .img2 div{
     background-image: url(../../img/tim-2.jpg);
     width: 463px;
@@ -106,8 +107,39 @@ thead{
     margin-left: 20px;
 }
 
-
 ul{
     list-style-position: inside;
     padding-left: 0px;
+}
+
+/* advice */
+.video{
+    width: 300px;
+    height: 200px;
+    max-width: 100%;
+    float: left;
+    margin-left: 80px;
+}
+
+.advice{
+    position: relative;
+}
+
+.advice::after{
+    content: "Lorem Ipsum";
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 20px;
+}
+
+.video:hover{
+    opacity: 0.8;
+}
+
+.bottom{
+    padding: 30px;
+    border-top: 2px solid rgb(51, 133, 255);;
 }
