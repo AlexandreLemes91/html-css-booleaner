@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  body{
+      background-color: black;
+  }
+
+  main{
+      color: white;
+  }
+  
+  header{ 
+    background-color: rgb(51, 133, 255);
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    padding-top: 40px;
+  }
+  
+  .logo{
+    width: 80%;
+    margin: auto;
+  }
+  
+  #logo{
+    height: 60px;
+  }
+  
+  main{
+    width: 80%;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  section{
+    margin-top: 30px;
+  }
+  
+  h1{
+    font-size: 40px;
+  }
+  
+  .otherdata{
+    color: rgb(92, 138, 138);
+  }
+  
+  .author{
+    color: rgb(51, 133, 255);
+  }
+  
+  .details{
+    font-size: 12px;
+  }
+  
+  .evidence{
+    color: black;
+    background-color: rgb(255, 255, 0); 
+  }
+  
+  .squaredata{
+    width: 33%;
+  }
+  
+  table{
+    border-collapse: collapse;
+    border: 1px solid white;
+  }
+  
+  thead{
+    background-color: rgb(4, 98, 240);
+    color: white;
+    text-align: left;
+  }
+  
+  .safereading{
+    background-color: rgb(126, 172, 241);
+  }
+  
+  .morearticles1{
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    background-image: url("../img/monitor.jpg");
+    width: 300px;
+    height: 200px;
+  }
+  
+  .morearticles2{
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    background-image: url("../img/graph.jpg");
+    width: 300px;
+    height: 200px;
+  }
